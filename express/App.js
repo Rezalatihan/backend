@@ -9,5 +9,4 @@ const user = require('./user')
 //penggunaan data yang diimport
 app.use(router)
 app.use(user)
-
 app.listen(3000, () => console.log('localhost:3000'))
