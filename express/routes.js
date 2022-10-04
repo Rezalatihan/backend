@@ -6,7 +6,6 @@ router.get('/', (req, res) => {
         message: 'welcome express '
     })
 })
-
 router.get('/about', (req, res) => {
     //Membuat Elemen HTML
     res.send('<h1> About express <h1>')
